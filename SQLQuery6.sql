@@ -1,8 +1,0 @@
-USE master;
-GO
-sp_detach_db CP_BASE;
-GO
-CREATE DATABASE CP_BASE
-ON (FILENAME = N'D:\db\CP_DB\CP_BASE.mdf')
-FOR ATTACH;
-GO
